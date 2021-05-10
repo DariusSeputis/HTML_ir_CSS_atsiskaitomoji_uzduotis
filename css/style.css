@@ -2,7 +2,8 @@
   --greyish: #615f65;
   --main-orange: #edc700;
 }
-h1 {
+h1,
+h2 {
   margin: 0;
   padding: 0;
 }
