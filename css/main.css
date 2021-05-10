@@ -32,11 +32,32 @@
 @media screen and (min-width: 678px) {
   main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
   }
   .howItStarted {
     margin: -5.5rem 0 0 0;
     max-width: 55rem;
     padding: 0 1.5rem;
   }
+}
+.contactUs {
+}
+.contactUs__cards {
+  text-align: center;
+}
+.contactUs__cards__pic {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+}
+.contactUs__cards__title {
+  color: var(--main-orange);
+  font-size: 1rem;
+}
+.contactUs__cards__info {
+  color: var(--greyish);
+  display: inline-block;
+  padding: 0.6rem 0 1rem 0;
 }
