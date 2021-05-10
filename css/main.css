@@ -18,6 +18,7 @@
 .howItStarted__text {
   color: var(--greyish);
   grid-column: 1 / span 3;
+  text-align: center;
 }
 .howItStarted__picWafleMonkey {
   justify-self: start;
@@ -27,4 +28,15 @@
 }
 .howItStarted__picLeontopithecus {
   justify-self: end;
+}
+@media screen and (min-width: 678px) {
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  .howItStarted {
+    margin: -5.5rem 0 0 0;
+    max-width: 55rem;
+    padding: 0 1.5rem;
+  }
 }
