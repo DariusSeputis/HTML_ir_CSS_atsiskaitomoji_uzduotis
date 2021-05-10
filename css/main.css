@@ -1,0 +1,30 @@
+.howItStarted {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 2rem 1rem;
+}
+.howItStarted__pic {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+}
+.howItStarted__title {
+  color: var(--main-orange);
+  grid-column: 2 / 3;
+  justify-self: center;
+  padding: 1.5rem 0;
+}
+.howItStarted__text {
+  color: var(--greyish);
+  grid-column: 1 / span 3;
+}
+.howItStarted__picWafleMonkey {
+  justify-self: start;
+}
+.howItStarted__picSquirrelMonkey {
+  justify-self: center;
+}
+.howItStarted__picLeontopithecus {
+  justify-self: end;
+}
