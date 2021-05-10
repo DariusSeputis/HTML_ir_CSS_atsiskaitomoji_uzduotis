@@ -1,5 +1,7 @@
-nav {
+.navWrap {
   background-color: var(--greyish);
+}
+nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,4 +26,20 @@ nav {
   position: absolute;
   left: 0;
   width: 0.9rem;
+}
+@media screen and (min-width: 678px) {
+  .navWrap {
+    display: flex;
+    justify-content: center;
+  }
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 55rem;
+    padding: 0 1.5rem;
+  }
+  .nav__search {
+    margin: 0;
+  }
 }
