@@ -1,0 +1,27 @@
+nav {
+  background-color: var(--greyish);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav__logo {
+  color: white;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+.nav__logo h1 {
+  font-size: 1.5rem;
+}
+.nav__search {
+  position: relative;
+  margin-bottom: 1rem;
+}
+#search {
+  padding-left: 1.3rem;
+}
+.nav__search_btn {
+  padding: 0.2rem;
+  position: absolute;
+  left: 0;
+  width: 0.9rem;
+}
