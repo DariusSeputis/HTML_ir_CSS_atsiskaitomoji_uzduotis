@@ -8,7 +8,7 @@ footer {
 }
 .footerInfo h5 {
   color: var(--main-orange);
-  padding: 1rem 0 0.3rem 0;
+  padding: 1.5rem 0 0.5rem 0;
 }
 .footerInfo li {
   list-style: none;
@@ -18,4 +18,16 @@ footer {
   color: white;
   font-size: 0.8rem;
   text-decoration: none;
+}
+@media screen and (min-width: 678px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  .footerInfo {
+    max-width: 55rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
