@@ -1,0 +1,21 @@
+footer {
+  background-color: var(--greyish);
+  border-top: 0.7rem solid var(--main-orange);
+  padding-bottom: 1rem;
+}
+.footerInfo {
+  text-align: center;
+}
+.footerInfo h5 {
+  color: var(--main-orange);
+  padding: 1rem 0 0.3rem 0;
+}
+.footerInfo li {
+  list-style: none;
+  line-height: 0.9rem;
+}
+.footerInfo a {
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
