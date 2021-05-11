@@ -4,11 +4,21 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   margin: 2rem 1rem;
+  overflow-x: auto;
 }
 .howItStarted__pic {
-  width: 11rem;
-  height: 11rem;
   border-radius: 50%;
+  height: 11rem;
+  width: 11rem;
+}
+.howItStarted__picWafleMonkey {
+  justify-self: start;
+}
+.howItStarted__picSquirrelMonkey {
+  justify-self: center;
+}
+.howItStarted__picLeontopithecus {
+  justify-self: end;
 }
 .howItStarted__title {
   color: var(--main-orange);
@@ -21,21 +31,11 @@
   grid-column: 1 / span 3;
   text-align: center;
 }
-.howItStarted__picWafleMonkey {
-  justify-self: start;
-}
-.howItStarted__picSquirrelMonkey {
-  justify-self: center;
-}
-.howItStarted__picLeontopithecus {
-  justify-self: end;
-}
 @media screen and (min-width: 678px) {
   main {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
   }
   .howItStarted {
     margin: -5.5rem 0 0 0;
@@ -60,6 +60,16 @@
   color: var(--greyish);
   display: inline-block;
   padding: 0.6rem 0 1rem 0;
+}
+.contactUs__cards__info__links {
+  color: var(--greyish);
+  text-decoration: none;
+}
+.contactUs__cards__info__links:hover {
+  color: rebeccapurple;
+}
+.contactUs__cards__info__links:active {
+  color: red;
 }
 @media screen and (min-width: 678px) {
   .contactUs {

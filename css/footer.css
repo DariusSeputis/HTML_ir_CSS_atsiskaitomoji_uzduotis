@@ -14,7 +14,7 @@ footer {
   list-style: none;
   line-height: 0.9rem;
 }
-.footerInfo a {
+.footerInfo__links {
   color: white;
   font-size: 0.8rem;
   text-decoration: none;
@@ -25,9 +25,10 @@ footer {
     justify-content: center;
   }
   .footerInfo {
-    max-width: 55rem;
     display: flex;
     justify-content: space-between;
+    max-width: 55rem;
+    padding: 0 1.5rem;
     width: 100%;
   }
 }

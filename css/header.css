@@ -2,29 +2,29 @@
   background-color: var(--greyish);
 }
 nav {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .nav__logo {
   color: white;
-  text-decoration: none;
   margin: 1rem 0;
+  text-decoration: none;
 }
 .nav__logo h1 {
   font-size: 1.5rem;
 }
 .nav__search {
-  position: relative;
   margin-bottom: 1rem;
+  position: relative;
 }
 #search {
   padding-left: 1.3rem;
 }
 .nav__search_btn {
+  left: 0;
   padding: 0.2rem;
   position: absolute;
-  left: 0;
   width: 0.9rem;
 }
 .hero {
@@ -48,9 +48,9 @@ nav {
   nav {
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
     max-width: 55rem;
     padding: 0 1.5rem;
+    width: 100%;
   }
   .nav__search {
     margin: 0;
